@@ -1,0 +1,61 @@
+.user-menu 
+{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-name 
+{
+  color: black;
+  padding-right: 10px;
+  margin-right:40px;
+  margin-left: 15px;
+  font-size:25px;
+}
+
+.card 
+  {
+    width: 900px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.card-header 
+{
+    background-color: grey;
+    color: black;
+    padding: 10px;
+}
+  
+label 
+{
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.row 
+{
+    display: flex;
+}
+
+.col-md-6 
+  {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px; 
+  }
+
+  .col-md-5 
+  {
+    flex: 0 0 50%;
+    max-width: 45%;
+    padding-right: 15px; 
+  }
+
+.input-field 
+{
+  width: 100px; 
+}

@@ -1,0 +1,120 @@
+
+.user-menu 
+{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-name 
+{
+  color: black;
+  padding-right: 10px;
+  margin-right:40px;
+  margin-left: 15px;
+  font-size:25px;
+}
+
+.card 
+{
+  max-width: 100%;
+  margin: 20px auto;
+  margin-top: 90px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header 
+{
+  background-color: grey;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.card-body 
+{
+  padding: 20px;
+}
+
+.form-group 
+{
+  margin-bottom: 20px;
+}
+
+.label 
+{
+  font-weight: bold;
+}
+
+.table-container 
+{
+  overflow-x: auto;
+}
+
+.report-table 
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td 
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.report-table th 
+{
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.summary-box 
+{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  float:right;
+}
+
+.pending-amount,
+.total-items,
+.total-amount 
+{
+  margin-bottom: 10px;
+}
+
+.pending-amount label,
+.total-items label,
+.total-amount label 
+{
+  font-weight: bold;
+}
+
+.btn-clear 
+{
+  background-color: #1b4543;
+  color: white;
+  margin-right: 20px; 
+}
+
+.btn-submit 
+{
+  background-color: #1b4543;
+  color: white;
+}
+
+.inline-checkbox, .inline-radio 
+{
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+}
+
+.inline-checkbox input[type="checkbox"], .inline-radio input[type="radio"] 
+{
+  margin: 0;
+}

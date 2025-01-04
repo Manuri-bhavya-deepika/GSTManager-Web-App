@@ -1,0 +1,69 @@
+.user-menu 
+{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-name 
+{
+  color: black;
+  padding-right: 10px;
+  margin-right:40px;
+  margin-left: 15px;
+  font-size:25px;
+}
+
+.card
+{
+  max-width: 100%;
+  margin: 20px auto;
+  margin-top: 90px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header 
+{
+  background-color: grey;
+  color: black;
+  padding: 10px;
+}
+
+.card-body 
+{
+  padding: 20px;
+}
+
+.row.no-gutters 
+{
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row.no-gutters > .col-md-3 
+{
+  flex: 1;
+  margin-right: 10px;
+}
+
+.row.no-gutters > .col:last-child 
+{
+  margin-right: 0;
+}
+
+input[type="text"] 
+{
+  max-width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+
+}

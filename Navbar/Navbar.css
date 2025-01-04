@@ -1,0 +1,81 @@
+.Navbar 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95px;
+    background-color: #03035a;
+    z-index: 1200;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 16px; 
+}
+
+.MenuIcon 
+{
+    color: white;
+    cursor: pointer;
+}
+
+.Navbar-right 
+{
+    display: flex;
+    align-items: center;
+}
+
+.PersonIcon 
+{
+    font-size:20px;
+    margin-right: 18px;
+    color: white;
+}
+
+.Name 
+{
+    font-size: 20px;
+    color:white;
+}
+
+.collapse-checkbox 
+{
+    display: none;
+  }
+  
+  .collapse-content 
+  {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .collapse-checkbox:checked + label + .collapse-content 
+  {
+    max-height: 500px; 
+  }
+  
+  .collapse-arrow 
+  {
+    transition: transform 0.3s ease;
+    margin-right: 16px;
+  }
+  
+  .collapse-checkbox:checked + label .collapse-arrow 
+  {
+    transform: rotate(180deg);
+  }
+  
+  .MuiDrawer-paper 
+  {
+    overflow-x: hidden;
+}
+
+.Navbar-image {
+  width: 40px;
+  height: 40px;
+  margin: 0 16px;
+}
+

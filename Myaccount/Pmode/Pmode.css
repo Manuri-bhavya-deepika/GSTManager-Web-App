@@ -1,0 +1,101 @@
+.user-menu 
+{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-name 
+{
+  color: black;
+  padding-right: 10px;
+  margin-right:40px;
+  margin-left: 15px;
+  font-size:25px;
+}
+
+.card 
+{
+    width: 900px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header 
+  {
+    background-color : grey;
+    color: black;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body 
+  {
+    padding: 20px;
+  }
+  
+  .form-group 
+  {
+    margin-bottom: 20px;
+  }
+  
+  label 
+  {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"] 
+  {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus 
+  {
+    outline: none;
+  }
+  
+  .row 
+  {
+    display: flex;
+  }
+  
+  .col-md-6 
+  {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px; 
+  }
+
+
+.save-button-container 
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.save-button 
+{
+  background-color: #1b4543;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px; 
+}
+
+.button-container button:last-child 
+{
+  margin-right: 120px;
+}

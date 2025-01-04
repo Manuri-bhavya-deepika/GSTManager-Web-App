@@ -1,0 +1,110 @@
+.user-menu 
+{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-name 
+{
+  color: black;
+  padding-right: 10px;
+  margin-right:40px;
+  margin-left: 15px;
+  font-size:25px;
+}
+
+.card 
+{
+    width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header 
+  {
+    background-color : grey;
+    color: black;
+    padding: 10px;
+  }
+  
+  .card-body 
+  {
+    padding: 20px;
+  }
+  
+  .form-group 
+  {
+    margin-bottom: 20px;
+  }
+  
+  label 
+  {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"] 
+  {
+    width: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input-container input[type="text"] 
+  {
+    width: 100px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.row 
+{
+    display: flex;
+}
+
+.large-input 
+{
+  width: 250px; 
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.large-input:focus 
+{
+  outline: none;
+}
+
+.custom-input 
+{
+  width: 100px; 
+  height:40px;
+  padding: 8px;
+}
+
+.custom-input:focus 
+{
+  outline: none;
+}
+
+.col-md-6 
+  {
+    max-width: 50%;
+    padding-right: 15px; 
+  }
+
+  .col-md-5
+  {
+    max-width: 45%;
+    padding-right: 15px; 
+  }

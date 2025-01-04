@@ -1,0 +1,104 @@
+.login-page 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box 
+{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.login-title 
+{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login-form 
+{
+    margin-top: 20px;
+}
+
+.form-group 
+{
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+.input-group 
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.login-input 
+{
+    width: 500px;
+    padding: 10px;
+    padding-left: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.input-icon 
+{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-label 
+{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-checkbox 
+{
+    margin-right: 10px;
+}
+
+.forgot-password 
+{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-left: 190px;
+}
+
+.login-button 
+{
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1b4543;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.form-groupp 
+{
+    display: flex;
+    justify-content: center; 
+}
+
+
+.password-icon 
+{
+  left: 10px; 
+}
